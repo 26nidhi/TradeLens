@@ -9,3 +9,5 @@ const LoadingSpinner = ({ message = "Loading premium market data..." }) => (
     <span className="ml-4 text-gray-300 text-lg">{message}</span>
   </div>
 );
+
+export default LoadingSpinner;
