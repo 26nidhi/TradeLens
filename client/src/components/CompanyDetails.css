@@ -1,0 +1,31 @@
+.company-details {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.company-details h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #1e3a8a;
+}
+
+.company-details p {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.company-details .description {
+  margin-top: 12px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #475569;
+}
+
+.company-details-placeholder {
+  text-align: center;
+  color: #64748b;
+  padding: 20px;
+}
