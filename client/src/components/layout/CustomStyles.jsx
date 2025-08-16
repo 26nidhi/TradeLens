@@ -1,7 +1,7 @@
 import React from "react";
 
 const CustomStyles = () => (
-  <style jsx>{`
+  <style>{`
     .custom-scrollbar::-webkit-scrollbar {
       width: 6px;
     }

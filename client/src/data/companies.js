@@ -1,3 +1,4 @@
+// src/data/companies.js
 export const companies = [
   {
     symbol: "AAPL",

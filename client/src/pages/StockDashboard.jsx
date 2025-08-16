@@ -1,3 +1,4 @@
+// src/pages/StockDashboard.jsx
 import React, { useState, useEffect } from "react";
 import AnimatedBackground from "../components/common/AnimatedBackground";
 import DashboardHeader from "../components/dashboard/DashboardHeader";
