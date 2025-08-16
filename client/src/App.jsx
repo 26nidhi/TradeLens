@@ -1,6 +1,7 @@
+// src/App.jsx
 import React from "react";
 import StockDashboard from "./pages/StockDashboard";
-import "./styles/globals.css";
+import "./index.css";
 
 function App() {
   return (
