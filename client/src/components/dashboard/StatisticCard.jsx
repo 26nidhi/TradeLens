@@ -1,3 +1,4 @@
+// src/components/dashboard/StatisticCard.jsx
 import React from "react";
 
 const StatisticCard = ({ title, value, icon, gradient, iconRotation = "" }) => (

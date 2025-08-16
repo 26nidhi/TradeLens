@@ -1,3 +1,4 @@
+// src/components/dashboard/CompanyListItem.jsx
 import React from "react";
 import CompanyAvatar from "../common/CompanyAvatar";
 

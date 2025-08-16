@@ -1,3 +1,4 @@
+// src/components/dashboard/StockInfoCard.jsx
 import React from "react";
 import CompanyAvatar from "../common/CompanyAvatar";
 import LoadingSpinner from "../common/LoadingSpinner";

@@ -1,3 +1,4 @@
+// src/components/dashboard/CompanyList.jsx
 import React from "react";
 import CompanyListItem from "./CompanyListItem";
 

@@ -1,3 +1,4 @@
+// src/components/dashboard/DashboardHeader.jsx
 import React from "react";
 
 const DashboardHeader = () => (
