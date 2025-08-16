@@ -15,3 +15,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #0f172a;
 }
+
+/* --- Custom animation utilities --- */
+@keyframes spin-reverse {
+  to { transform: rotate(-360deg); }
+}
+.animate-spin-reverse {
+  animation: spin-reverse 1s linear infinite;
+}
