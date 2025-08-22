@@ -1,7 +1,9 @@
 // src/services/api.js - Complete API Service with Real-time
 import { io } from "socket.io-client";
 
-const API_BASE_URL = "http://localhost:5000/api";
+// ✅ Use deployed backend URL instead of localhost
+const API_BASE_URL = "https://tradelens-7hio.onrender.com/api";
+const SOCKET_URL = "https://tradelens-7hio.onrender.com";
 
 class ApiService {
   constructor() {
@@ -13,7 +15,10 @@ class ApiService {
   initializeRealTime() {
     if (this.socket) return this.socket;
 
-    this.socket = io("http://localhost:5000");
+    // ✅ Connect socket to deployed server
+    this.socket = io(SOCKET_URL, {
+      transports: ["websocket"],
+    });
 
     this.socket.on("connect", () => {
       console.log("Connected to real-time server");
@@ -24,7 +29,6 @@ class ApiService {
     });
 
     this.socket.on("price_update", (data) => {
-      // Notify all subscribers for this symbol
       const callbacks = this.subscribers.get(data.symbol) || [];
       callbacks.forEach((callback) => callback(data));
     });
